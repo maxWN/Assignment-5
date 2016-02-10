@@ -1,0 +1,205 @@
+/* 
+    Document   : style1
+    Created on : Mar 25, 2012, 11:30:27 PM
+    Author     : Ben
+    Edited  by : Max W. Nakel
+    Description:
+        Provide styling in a better manner than the text.
+*/
+
+html {
+    /*background-color: #cdba96;  /* wheat 3 */    
+    background: -moz-linear-gradient(left, #cdba96, #683A0C);
+}
+
+/*body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ffe7ba;  
+    border-style: groove;
+    border-width: 4px;
+    padding: 15px;
+    border-color: #8b7e66;  
+}*/
+
+#main_content_area {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe7ba;  /* wheat */
+    border-style: groove;
+    width: 884px;
+    border-width: 4px;
+/*    padding: 20px;*/
+/*    padding-left: 15px;*/
+    border-color: #8b7e66;  /* wheat 4 */
+}
+
+#main_title_navbar {
+/*    text-align: right;*/
+    border: #000000 solid 1px;
+    font: sans-serif, .5em, #000000; 
+/*        impact, .5em, #000000;*/
+    background-color: #cdba96;
+    width: 850px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#symbol_space {
+    width: 150px;
+    border: #000000 solid 1px;    
+/*    float: left;*/
+    border-radius: 80px 80px 80px 80px;
+}
+
+#title_space {
+    font: impact .5em, #000000;    
+    border: #000000 solid 1px;    
+    text-align: center;
+    width: 850px;
+/*    float: right;*/    
+/*    margin-left: 155px;*/
+/*    clear: both;*/
+}
+
+#link_one {
+    width: 696px;
+    border: #000000 solid 1px;
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+/*    padding-left: 5px;*/
+    text-align: center;
+}
+
+#link_two {
+    width: 696px;
+    border: #000000 solid 1px;
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+/*    padding-left: 5px;*/
+    text-align: center;
+}
+
+#page_body {
+    width: 850px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: #000000 solid 1px;
+    
+}
+
+#page_body2 {
+    width: 830px;
+    padding: 10px;
+    border: #000000 solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#error_page {
+    width: 850px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: #FF0000 solid 2px;   
+    color: #FF0000;
+}
+
+#error_page1 {
+    width: 850px;
+/*    text-align: center;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: #FF0000 solid 2px;   
+    color: #FF0000;
+}
+
+#sButton {
+    margin-left: 30px
+}
+/*
+select {
+    overflow-x: hidden;
+}
+*/
+
+a:link {
+    color: #0A0909;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #0A0909;
+    text-decoration: line-through;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0A0909;
+    text-decoration: line-through;    
+}
+
+/* selected link */
+a:active {
+    color: #0A0909;
+    text-decoration: none;
+}
+th {
+    background-color: #ccc;    
+}
+
+th.narrow {
+    background-color: #ccc;
+    width: 5em;
+    text-align: left;
+}
+
+th.wide {
+    width: 10em;
+    background-color: #ccc;
+    text-align: left;
+}
+   
+
+.numeric {
+    text-align: right;
+}
+            
+.center {
+    text-align: center;
+}
+
+
+div.data-grid {
+    display: table;
+}
+
+div.data-grid > div {
+    display: table-row;
+}
+
+div.data-grid > div > span {
+    display: table-cell;
+}
+
+
+table.grid, table.grid th, table.grid td {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 2px;
+  padding: 5px;
+  
+  /*text-align: right;*/ }
+
+
+.error {
+    color: red;
+    border-style: solid;
+}
