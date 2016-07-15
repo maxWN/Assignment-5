@@ -1,6 +1,7 @@
 # Assignment-5 Northwest Georgia Geography Site
 
 Author: Max W. Nakel
+
 Created: 10/24/2015
 
 - Software used:
