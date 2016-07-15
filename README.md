@@ -8,7 +8,7 @@ Created: 10/24/2015
 - Apache 2.4.7
 - Python 3.4.0
 
-**Summary**
+**Summary: **
 
 This application uses the measurements example database as a subject. It uses the modules db_access and db_utility functions to access data regarding geographical and infastructure features of local towns in Georgia. There are four additional Python scripts that generate new forms (using db_access.py and db_utility.py functions) upon receiving user data. 
 
