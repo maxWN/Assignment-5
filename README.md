@@ -21,3 +21,7 @@ Each script handles errors in the submitted data:
 - Submitted id is not the id of an actual entity in the database
 
 When location_table.py detects an error, it will redisplay the area_selection.py page with an appropriate message. When measurement_table.py detectc an error, it will display a generic error page with messages. There is an HTML page (reachable from the home page) that contains six froms with three error possibilities times two scripts (location_table.py and measurement_table.py). 
+
+**Purpose**
+
+The overall purpose for the code contained within this repository is for demonstration purposes. It is not intended for open source development, as it is only intended to demonstrate knowledge of web programming in the Python programming language.
