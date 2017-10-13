@@ -42,7 +42,6 @@ def get_average_measurements_for_area(area_id):
 def number_of_locations_by_area(area_id):
     id = get_locations_for_area(area_id)
     num = len(id)
-    # print(num)
     return num
     """
     Returns the number of locations for the given area.
