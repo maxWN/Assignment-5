@@ -1,7 +1,8 @@
 # Assignment-5 Northwest Georgia Geography Site
 
-Author: Max W. Nakel
-Created: 10/24/2015
+**Project Status:**
+
+This project has not been actively maintained for a considerable amount of time. It is in an archived state, so please refrain from making any pull requests or using in any capacity beyond its original intended purpose.
 
 - Software used:
 - Ubuntu 14.04 
