@@ -17,7 +17,7 @@ html {
 /*body {
     margin-left: 15%;
     margin-right: 15%;
-    background-color: #ffe7ba;  
+    background-color: #ffe7ba;
     border-style: groove;
     border-width: 4px;
     padding: 15px;
@@ -57,7 +57,7 @@ html {
 
 #title_space {
     font: impact .5em, #000000;    
-    border: #000000 solid 1px;    
+    border-bottom: #000 solid 1px;
     text-align: center;
     width: 850px;
 /*    float: right;*/    
@@ -65,22 +65,27 @@ html {
 /*    clear: both;*/
 }
 
-#link_one {
+.link_cells {
     width: 696px;
-    border: #000000 solid 1px;
+    border: #000 solid 1px;
     float: right;
     border-radius: 10px 0px 0px 10px;
-/*    padding-left: 5px;*/
     text-align: center;
 }
 
-#link_two {
-    width: 696px;
-    border: #000000 solid 1px;
-    float: right;
-    border-radius: 10px 0px 0px 10px;
-/*    padding-left: 5px;*/
-    text-align: center;
+.link_cell_top {
+    border-top: #000 solid 1px;
+    border-left: #000 solid 1px;
+}
+
+.link_cell_center {
+    border-top: #000 solid 1px;
+    border-left: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+}
+
+.link_cell_bottom {
+    border-bottom: #000 solid 1px;
 }
 
 #page_body {
@@ -169,7 +174,6 @@ th.wide {
     text-align: left;
 }
    
-
 .numeric {
     text-align: right;
 }
@@ -177,7 +181,6 @@ th.wide {
 .center {
     text-align: center;
 }
-
 
 div.data-grid {
     display: table;
@@ -191,14 +194,13 @@ div.data-grid > div > span {
     display: table-cell;
 }
 
-
 table.grid, table.grid th, table.grid td {
-  border-style: solid;
-  border-collapse: collapse;
-  border-width: 2px;
-  padding: 5px;
-  
-  /*text-align: right;*/ }
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding: 5px;
+    /*text-align: right;*/ 
+}
 
 
 .error {

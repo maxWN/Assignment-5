@@ -1,4 +1,4 @@
-# Assignment-5
+# Assignment 5
 
 **Summary:**
 
@@ -11,13 +11,3 @@ This web application requires the following dependencies to properly function:
 - Ubuntu 14.04 (or greater)
 - Apache Server 2.4.7 (or greater)
 - Python 3.4.0
-
-**Error Handling:**
-
-Each script handles errors in the submitted data:
-
-- No id submitted
-- Submitted id is not an integer
-- Submitted id is not the id of an actual entity in the database
-
-When location_table.py detects an error, it will redisplay the area_selection.py page with an appropriate message. When measurement_table.py detects an error, it will display a generic error page with messages. There is an HTML page (reachable from the home page) that contains six froms with three error possibilities times two scripts (location_table.py and measurement_table.py). 

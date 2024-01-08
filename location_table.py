@@ -31,9 +31,9 @@ print("""<!DOCTYPE html>
         <div id="main_content_area">
             <div id="main_title_navbar">
                 <div id="title_space">Internet Programming: Assignment 5</div>
-                <div id="link_one"><a href="/assign_five/a5_home_page.html">Home Page</a></div>
-                <div id="link_two"><a href="/cgi-bin/area_table.py">Display all Areas</a></div>
-                <div id="link_two"><a href="/assign_five/a5_error_testing_page.html">Error Testing</a></div>
+                <div class="link_cells link_cell_top"><a href="/assign_five/a5_home_page.html">Home Page</a></div>
+                <div class="link_cells link_cell_center"><a href="/cgi-bin/area_table.py">Display all Areas</a></div>
+                <div class="link_cells link_cell_bottom"><a href="/assign_five/a5_error_testing_page.html">Error Testing</a></div>
                 <div id="symbol_space">
                    <img src="/assign_five/5Cubes2.png" height="150px" width="150px"/>
                 </div>
